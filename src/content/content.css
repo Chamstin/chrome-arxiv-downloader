@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :host {
+    all: initial;
+  }
+}
+
+@layer components {
+  .axd-root {
+    font-family:
+      "Segoe UI",
+      "PingFang SC",
+      "Hiragino Sans GB",
+      sans-serif;
+    color: #112031;
+  }
+}

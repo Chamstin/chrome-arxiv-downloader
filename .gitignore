@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+release/
+
+# Local packaging keys and archives
+*.crx
+*.pem
+*.zip
+
+# TypeScript caches
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

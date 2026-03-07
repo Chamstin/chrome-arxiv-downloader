@@ -1,0 +1,37 @@
+{
+  "name": "chrome-arxiv-downloader",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Batch-download arXiv papers from search and list pages with queued PDFs and optional AI previews.",
+  "author": "@chamstin (https://github.com/Chamstin)",
+  "homepage": "https://github.com/Chamstin",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "package:webstore": "node ./scripts/package-release.mjs webstore",
+    "package:crx": "node ./scripts/package-release.mjs crx",
+    "package:all": "node ./scripts/package-release.mjs all"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "^5.2.6",
+    "@fontsource/space-grotesk": "^5.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.2.0",
+    "@types/chrome": "^0.0.325",
+    "@types/node": "^22.13.10",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "crx3": "^2.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
