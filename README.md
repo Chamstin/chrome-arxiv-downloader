@@ -4,6 +4,10 @@ Batch-download arXiv papers from search and list pages, queue PDFs in a modern s
 
 在 arXiv 搜索页和列表页批量收集论文，使用右侧候选面板统一下载 PDF，并可选地基于摘要生成一句话 AI 预览。
 
+## 截图
+<img width="2347" height="1541" alt="image" src="https://github.com/user-attachments/assets/d61106df-e555-4cef-a0a2-dbf9d51bc972" />
+
+
 ## Author / 作者
 
 - `@chamstin`
